@@ -219,7 +219,7 @@ class Client {
 	}
 
 	async addToInventory(item_name) {
-		let found = await User.findOne({ticket: this.ticket, "inventory.itemId": item_name});
+		let found = await User.findOne({playerId: this.user.playerId, "inventory.itemId": item_name});
 		if (found)
 			return false;
 
