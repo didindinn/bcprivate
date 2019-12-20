@@ -1,0 +1,17 @@
+{
+	"staff": ["Nettoork"],
+	"rooms": {
+		"christmas": {
+			"main": true
+		},
+		"snowman_village": {
+			"onlyStaff": false,
+			"joinCommand": true
+		},
+		"tavern": {
+			"onlyStaff": false,
+			"joinCommand": true
+		}
+	},
+	"start_coins": 15000
+}

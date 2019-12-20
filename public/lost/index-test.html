@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Box Critters - Lost password</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- {{head}} -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        .hide {
+            display: none
+        }
+
+    </style>
+
+    <!-- {{cards}} -->
+    <!-- {{analytics}} -->
+
+    <!-- PlayFab -->
+    <script type="text/javascript" src="https://download.playfab.com/PlayFabClientApi.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col col-sm-10 col-md-8 col-lg-6">
+
+                <form class="form form-lost" novalidate>
+                    <h1 class="h3 mb-3 font-weight-normal">Lost your password?</h1>
+
+                    <div class="alert alert-info">Enter your email address to reset your password. You may need to check your spam folder or unblock playeraccounts@playfab.com.</div>
+
+                    <div class="form-error alert alert-danger hide"></div>
+
+                    <div class="form-group join-email">
+                        <input id="email" type="email" class="form-control" placeholder="Enter your email" required autocomplete="username">
+                        <div class="invalid-feedback">Invalid email address</div>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-lg btn-block">Send</button>
+                        <a href="/" class="btn btn btn-link btn-block">or login</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- {{footer}} -->
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="../scripts/forms.js"></script>
+    <script src="../scripts/lost.js"></script>
+
+    <script>
+        PlayFab.settings.titleId = '5417';
+
+    </script>
+
+
+</body>
+
+</html>
