@@ -61,6 +61,7 @@ class Client {
 		if (!ticket)
 			return this.disconnect();
 		
+		this.ticket = ticket;
 		this.user = await User.findOne({ticket: ticket});
 		
 		if (this.user && !this.user.banned) {
@@ -218,7 +219,7 @@ class Client {
 	}
 
 	async addToInventory(item_name) {
-		let found = await User.findOne({ticket: this.cookie, "inventory.itemId": item_name});
+		let found = await User.findOne({ticket: this.ticket, "inventory.itemId": item_name});
 		if (found)
 			return false;
 
