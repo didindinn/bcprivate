@@ -12,17 +12,20 @@ node.js - v12.14.0 (recommended version)
 ```
 git clone https://github.com/Useems/bcprivate.git
 ```
+
 ```
 npm install
 ```
 
+Now, you need to [download the client files](http://www.mediafire.com/file/35lof38dwi70srx/client.zip/file "download the client files") and extract it in the folder **public**.
+
 ## Setting
 
-**You will need an account in mongodb to continue the proccess, the project uses it to save data of players.**____
+**You will need an account in mongodb to continue the proccess, the project uses it to save data of players.**</br>
 Taking into consideration, create a new project in [MongoDB](mongodb.org "MongoDB website"), and configure the environment variables, in .env file.
 
 #### environment variables
-DB_CONNECT: Mongodb connection url__
+DB_CONNECT: Mongodb connection url</br>
 PASSWORD_ENCRYPTION: Your secret key to generate players's password
 
 ## Running
