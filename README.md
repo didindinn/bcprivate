@@ -17,7 +17,7 @@ git clone https://github.com/Useems/bcprivate.git
 npm install
 ```
 
-Now, you need to [download the client files](http://www.mediafire.com/file/35lof38dwi70srx/client.zip/file "download the client files") and extract it in the folder **public**.
+Now, you need to [download the client files](https://www.mediafire.com/file/pz6cp7o9fl84o33/v152.zip/file "download the client files") and extract it in the folder **public**.
 
 ## Setting
 
