@@ -34,7 +34,7 @@ mongoose.connect(process.env.DB_CONNECT, {useUnifiedTopology: true, useNewUrlPar
 	try {
 		new Login_page(app); // Login and Registration pages
 
-		let server = app.listen(80);
+		let server = app.listen(port);
 		console.log("[Website] Online!");
 
 		let websocket = socketio(server);
