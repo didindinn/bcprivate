@@ -5,7 +5,7 @@ A Box Critters Private Server
 
 ### Prerequisites
 ```
-	node.js - v12.14.0 (recommended version)
+node.js - v12.14.0 (recommended version)
 ```
 
 ### Installing
