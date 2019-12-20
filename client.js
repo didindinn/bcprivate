@@ -219,6 +219,9 @@ class Client {
 	}
 
 	async addToInventory(item_name) {
+		if (!this.user || !this.logged)
+			return this.disconnect();
+		
 		let found = await User.findOne({playerId: this.user.playerId, "inventory.itemId": item_name});
 		if (found)
 			return false;
