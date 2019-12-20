@@ -18,12 +18,11 @@ npm install
 
 ## Setting
 
-**You will need an account in mongodb to continue the proccess, the project uses it to save data of players.**
-
+**You will need an account in mongodb to continue the proccess, the project uses it to save data of players.**____
 Taking into consideration, create a new project in [MongoDB](mongodb.org "MongoDB website"), and configure the environment variables, in .env file.
 
 #### environment variables
-DB_CONNECT: Mongodb connection url
+DB_CONNECT: Mongodb connection url__
 PASSWORD_ENCRYPTION: Your secret key to generate players's password
 
 ## Running
@@ -41,4 +40,4 @@ v152
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details
